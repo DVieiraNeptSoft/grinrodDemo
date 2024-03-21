@@ -1,0 +1,89 @@
+{
+	"id": "d43f12eb-39d2-ee11-85f9-0022489e2ecd",
+	"createdAt": "2024-02-23T10:54:30.383Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/grinrodDemo"
+	},
+	"name": "grinrodDemo",
+	"description": null,
+	"ver": "24.3.21.1433",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "3a326d33-3ad2-ee11-85f9-0022489e2ecd",
+			"application": "grinrod_cover",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D43F12EB-39D2-EE11-85F9-0022489E2ECD"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "2a8571d2-6ad2-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "grinrod_cover"
+		},
+		{
+			"id": "24c66c63-75d2-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "sapALVReport"
+		}
+	],
+	"category": [
+		{
+			"id": "c3864493-75d2-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "SAP ALV Reports"
+		},
+		{
+			"id": "8471ab19-83d5-ee11-85f9-0022489e2e2b",
+			"description": null,
+			"name": "otherAdaptiveApps"
+		},
+		{
+			"id": "7535eeec-6ad2-ee11-85f9-0022489e2ecd",
+			"description": null,
+			"name": "grinrod_home"
+		},
+		{
+			"id": "480b6e66-83d5-ee11-85f9-0022489e2e2b",
+			"description": null,
+			"name": "grinrod_overall_performance"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "8d20c420-48d2-ee11-85f9-0022489e2ecd",
+			"name": "grinrodLaunchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

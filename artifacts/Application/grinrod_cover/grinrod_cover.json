@@ -1,0 +1,1175 @@
+{
+	"id": "3a326d33-3ad2-ee11-85f9-0022489e2ecd",
+	"createdAt": "2024-02-23T10:56:33.890Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "cdf4c14a-9127-412b-a186-7c0b3f5afc6a",
+			"fieldName": "FlexBoxContainer1",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fitContainer",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "backgroundDesign",
+					"grouping": "Properties",
+					"value": "Translucent",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+					"fieldName": "Carousel1",
+					"fieldParent": "cdf4c14a-9127-412b-a186-7c0b3f5afc6a",
+					"fieldType": "nep.bootstrap.Carousel",
+					"script": "",
+					"customComponent": false,
+					"disabled": true,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "height",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "touchEnabled",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "cycle",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "interval",
+							"grouping": "Properties",
+							"value": "5000",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "loop",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "f9185f4f-7894-4b76-f0b0-ec3ba3102f56",
+							"fieldName": "CarouselItem",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "e0dea628-d51d-45b0-f6b5-26d4952d4121",
+									"fieldName": "Image11",
+									"fieldParent": "f9185f4f-7894-4b76-f0b0-ec3ba3102f56",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod1.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "c04b7a90-9a05-416f-a806-1324c0e8842b",
+							"fieldName": "CarouselItem1",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "c1de1854-8d75-408c-c13c-81a24b898af8",
+									"fieldName": "Image13",
+									"fieldParent": "c04b7a90-9a05-416f-a806-1324c0e8842b",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod2.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "5a0e2061-e6ae-4d94-fe3b-a85bfa8ea22e",
+							"fieldName": "CarouselItem2",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "626ecbbe-1d54-4694-869c-97cb88eebeb7",
+									"fieldName": "Image14",
+									"fieldParent": "5a0e2061-e6ae-4d94-fe3b-a85bfa8ea22e",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod3.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "e545e9e4-2561-4329-eb9c-18a7a5101d13",
+							"fieldName": "CarouselItem3",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "5d773c6c-a52d-4b2d-b2f7-11122ebb1d16",
+									"fieldName": "Image15",
+									"fieldParent": "e545e9e4-2561-4329-eb9c-18a7a5101d13",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod4.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "02d304c5-e637-4490-adcc-db276592025b",
+							"fieldName": "CarouselItem4",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "eef15b0d-2560-4248-d9f5-6ea1491871cf",
+									"fieldName": "Image16",
+									"fieldParent": "02d304c5-e637-4490-adcc-db276592025b",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod5.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "379dd0d3-78c2-451c-ed53-5abdd62830c4",
+							"fieldName": "CarouselItem5",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "a1cdaed8-5698-4056-d456-6d880bc3e809",
+									"fieldName": "Image17",
+									"fieldParent": "379dd0d3-78c2-451c-ed53-5abdd62830c4",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod6.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "c06c05f7-92ef-43cb-c0a5-6f73e5bced98",
+							"fieldName": "CarouselItem6",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "c459080f-ab09-49f1-de02-3f5568725d0c",
+									"fieldName": "Image18",
+									"fieldParent": "c06c05f7-92ef-43cb-c0a5-6f73e5bced98",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod7.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "4331406c-f49a-4310-940b-7d74c85b9e33",
+							"fieldName": "CarouselItem7",
+							"fieldParent": "c05b29a2-244b-458e-a46c-dff14b56c91f",
+							"fieldType": "nep.bootstrap.CarouselItem",
+							"script": "",
+							"customComponent": false,
+							"disabled": true,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "3610696d-9f78-463f-fad2-b659a656b7bc",
+									"fieldName": "Image19",
+									"fieldParent": "4331406c-f49a-4310-940b-7d74c85b9e33",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"disabled": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "carousel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/Daniel/grinrod8.png",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "88fab28a-b1a4-4d18-db2b-adb8753043ee",
+					"fieldName": "Carousel",
+					"fieldParent": "cdf4c14a-9127-412b-a186-7c0b3f5afc6a",
+					"fieldType": "sap.m.Carousel",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "carousel",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showPageIndicator",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "loop",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "arrowsPlacement",
+							"grouping": "Properties",
+							"value": "Content",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "9e5a31c3-569b-498c-c034-a4c17944c0cf",
+							"fieldName": "Image20",
+							"fieldParent": "88fab28a-b1a4-4d18-db2b-adb8753043ee",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "carousel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "{img}",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "mode",
+									"grouping": "Properties",
+									"value": "Image",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "be0509c5-d79b-4fa4-84e1-438d337d5ba1",
+					"fieldName": "FlexBoxContainer",
+					"fieldParent": "cdf4c14a-9127-412b-a186-7c0b3f5afc6a",
+					"fieldType": "sap.m.FlexBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "fitContainer",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "direction",
+							"grouping": "Properties",
+							"value": "Column",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "8291dd85-1cd6-4484-a86a-33ee2d53f62d",
+							"fieldName": "FlexBox2",
+							"fieldParent": "be0509c5-d79b-4fa4-84e1-438d337d5ba1",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "direction",
+									"grouping": "Properties",
+									"value": "Column",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+									"fieldName": "HBox8",
+									"fieldParent": "8291dd85-1cd6-4484-a86a-33ee2d53f62d",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "hbox",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "7fefe005-2624-4aa9-e3af-0a7d326ecfeb",
+											"fieldName": "Text2",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "INTERIM RESULTS",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "be6e6077-21ad-430f-c37d-ccfc71ee4aab",
+											"fieldName": "Icon",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxIcon",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://navigation-right-arrow",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "red",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "3a2b4d7e-8809-43df-9533-98bd5549e71c",
+											"fieldName": "Text3",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "B-BBEE CERTIFICATES",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "11814742-dfb0-4902-c63a-f4b5f517e313",
+											"fieldName": "Icon1",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxIcon",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://navigation-right-arrow",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "red",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d6a55aa0-6a9e-4e5d-b794-47b24f8b28ba",
+											"fieldName": "Text4",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "WHISTLEBLOWING POLICY",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "bb8b918a-1186-4791-abb3-11dbc6fc5c82",
+											"fieldName": "Icon2",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "hboxIcon",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://navigation-right-arrow",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "red",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "50189522-9a70-44ad-db1f-c89d93675622",
+											"fieldName": "VBox11",
+											"fieldParent": "45a8ddfa-e235-4f51-c3eb-838111dd5ced",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "redColumn",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "453d3a76-429c-42af-8f71-5a86907c5ea9",
+													"fieldName": "HBox9",
+													"fieldParent": "50189522-9a70-44ad-db1f-c89d93675622",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "32c9b519-dbc0-40b6-b8bc-569c40ee8489",
+															"fieldName": "Text5",
+															"fieldParent": "453d3a76-429c-42af-8f71-5a86907c5ea9",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "boldText",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "43be8f22-ea2c-4f63-c122-4baf7b5c39a6",
+															"fieldName": "Text6",
+															"fieldParent": "453d3a76-429c-42af-8f71-5a86907c5ea9",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "ffc7ebfe-eb3e-4a86-e03c-4ee6cc6a5e70",
+									"fieldName": "VBox12",
+									"fieldParent": "8291dd85-1cd6-4484-a86a-33ee2d53f62d",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "wrap",
+											"grouping": "Properties",
+											"value": "Wrap",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "40%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "vbox",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "94bcc003-4286-4b5c-d36b-574871f5389c",
+											"fieldName": "HBox10",
+											"fieldParent": "ffc7ebfe-eb3e-4a86-e03c-4ee6cc6a5e70",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "09729147-9ae0-4ee9-99cc-5fe384cce64f",
+													"fieldName": "Link2",
+													"fieldParent": "94bcc003-4286-4b5c-d36b-574871f5389c",
+													"fieldType": "sap.m.Link",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Customer Solutions",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "vboxTitle",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "5e6df3f0-04d1-40a7-8557-c1fd1967bb9b",
+													"fieldName": "Title6",
+													"fieldParent": "94bcc003-4286-4b5c-d36b-574871f5389c",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Customer Solutions",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "17110dce-f147-497a-ed08-3872196c378e",
+													"fieldName": "Icon4",
+													"fieldParent": "94bcc003-4286-4b5c-d36b-574871f5389c",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "vboxTitleIcon",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://navigation-right-arrow",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "red",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "75e985e6-61c0-4522-f84a-2a56a5404c7a",
+											"fieldName": "Text7",
+											"fieldParent": "ffc7ebfe-eb3e-4a86-e03c-4ee6cc6a5e70",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Our can-do attitude, tenacity, courage and vision have seen us grow from humble beginnings into a global powerhouse represented in 23 countries. We provide customer solutions for an efficient and cost effective cargo flow – efficiently moving cargo by road, rail, sea and air – providing integrated logistical and specialised services across trade corridors.",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "vboxText",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "a3552143-8f70-4a49-e19e-c018029108f7",
+					"fieldName": "FlexBoxContainer2",
+					"fieldParent": "cdf4c14a-9127-412b-a186-7c0b3f5afc6a",
+					"fieldType": "sap.m.FlexBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "flexContainer2",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "fitContainer",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "direction",
+							"grouping": "Properties",
+							"value": "Column",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "7a5e26b1-2a7f-4f49-ec8b-60c1df8711df",
+							"fieldName": "Image",
+							"fieldParent": "a3552143-8f70-4a49-e19e-c018029108f7",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "/media/root/Daniel/grindrodfooter.png",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "ba5c145a-c3de-4a27-fc59-173c12f47269",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.2.23.1743",
+	"application": "grinrod_cover",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "d43f12eb-39d2-ee11-85f9-0022489e2ecd"
+}

@@ -1,0 +1,95 @@
+.carousel.sapMCrslFluid .sapMCrslItem {
+  margin-right: 0rem !important;
+  opacity: 1 !important;
+}
+
+.carousel .sapMCrslItem:focus::before,
+.sapMCrslNoDataItem:focus::before {
+  border: 0rem !important;
+}
+
+.carousel .sapMCrslItem:focus::after,
+.sapMCrslNoDataItem:focus::after {
+  border: 0rem !important;
+}
+
+.carousel .sapMCrslHud .sapMCrslArrow {
+  display: none !important;
+}
+
+.hbox {
+  background-color: #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: calc(20% + 30px);
+  position: relative;
+}
+
+.hboxIcon {
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.redColumn {
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1.4;
+  padding: 50px;
+  background-color: #e21f26;
+  color: #fff;
+  margin-top: -110px;
+  max-width: 350px;
+}
+
+.hboxText {
+  color: #4f758b;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.boldText {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: justify;
+}
+
+.vbox {
+  padding-left: calc(20% + 30px);
+  margin-top: -250px;
+}
+
+.vboxTitle {
+  color: #7c878e;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+
+.vboxTitleIcon {
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.vboxTitle.sapMLnk:hover:not(.sapMLnkDsbl) {
+  color: #e21f26;
+}
+
+.vboxText {
+  text-align: justify !important;
+}
+
+.flexContainer2 {
+  margin-top: 150px;
+}

@@ -1,0 +1,98 @@
+{
+	"id": "480b6e66-83d5-ee11-85f9-0022489e2e2b",
+	"createdAt": "2024-02-27T15:18:04.140Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"translation": [],
+	"tilesOrder": [
+		"124b08dd-afba-ee11-b661-0022489e2ba0",
+		"a57f97df-b5ba-ee11-b661-0022489e2ba0",
+		"41921fa5-b7ba-ee11-b661-0022489e2ba0"
+	],
+	"tilegroupsOrder": [
+		"8471ab19-83d5-ee11-85f9-0022489e2e2b"
+	],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Dashboard",
+	"subTitle": "Overall Performance Status",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.2.27.1518",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "grinrod_overall_performance",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "d43f12eb-39d2-ee11-85f9-0022489e2ecd",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "a57f97df-b5ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_barchart",
+			"title": null,
+			"ver": "24.2.5.1610"
+		},
+		{
+			"id": "41921fa5-b7ba-ee11-b661-0022489e2ba0",
+			"name": "jlr_linechart",
+			"title": null,
+			"ver": "24.2.5.1611"
+		},
+		{
+			"id": "124b08dd-afba-ee11-b661-0022489e2ba0",
+			"name": "jlr_chart",
+			"title": null,
+			"ver": "24.2.5.1611"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "8471ab19-83d5-ee11-85f9-0022489e2e2b",
+			"name": "otherAdaptiveApps",
+			"title": "Other Types of No Code Apps",
+			"ver": "24.2.27.1516"
+		}
+	]
+}
